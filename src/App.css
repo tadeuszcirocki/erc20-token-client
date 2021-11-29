@@ -30,7 +30,20 @@
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 150px;
+}
+
+.switchButton {
+  cursor: pointer;
+  margin-top: 0px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 80px;
 }
 
 .ownerButton {
@@ -39,9 +52,14 @@
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  
+  width: 500px;
 }
 
 .element{
   margin-top: 30px;
+}
+
+.switch{
+  position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+left: -300px;
 }
