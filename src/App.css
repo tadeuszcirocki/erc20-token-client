@@ -32,3 +32,16 @@
   border-radius: 5px;
   
 }
+
+.ownerButton {
+  cursor: pointer;
+  margin-top: 400px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
+
+.element{
+  margin-top: 30px;
+}
