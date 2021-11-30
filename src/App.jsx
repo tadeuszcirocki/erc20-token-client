@@ -267,6 +267,11 @@ const App = () => {
                             <button className="switchButton" onClick={switchToVesting}>
                                 VESTING
                             </button>
+                            {!currentAccount && (
+                                <button className="walletButton" onClick={connectWallet}>
+                                    Connect Wallet
+                                </button>
+                            )}
                             <div className="links">
                                 <SocialIcon url="https://github.com/tadeuszcirocki/erc20-token" />
                                 <SocialIcon url="https://rinkeby.etherscan.io/address/0x70a764d787f6928aaF1cD9658E14f47CaEEC6AAE" />
@@ -353,11 +358,7 @@ const App = () => {
 
 
 
-                        {!currentAccount && (
-                            <button className="waveButton" onClick={connectWallet}>
-                                Connect Wallet
-                            </button>
-                        )}
+
                         {
                             <button className="ownerButton" onClick={checkIfOwner}>
                                 you're an owner? click here
@@ -400,6 +401,11 @@ const App = () => {
                             <button className="switchButton" onClick={switchToVesting}>
                                 VESTING
                             </button>
+                            {!currentAccount && (
+                                <button className="walletButton" onClick={connectWallet}>
+                                    Connect Wallet
+                                </button>
+                            )}
                             <div className="links">
                                 <SocialIcon url="https://github.com/tadeuszcirocki/erc20-token" />
                                 <SocialIcon url="https://rinkeby.etherscan.io/address/0x9188715C18f396453bEF74f844eAEad60E7B6E02" />
@@ -440,12 +446,6 @@ const App = () => {
                             available: {toClaim}
                         </div>
 
-
-                        {!currentAccount && (
-                            <button className="waveButton" onClick={connectWallet}>
-                                Connect Wallet
-                            </button>
-                        )}
                         {
                             <button className="ownerButton" onClick={checkIfOwner}>
                                 you're an owner? click here

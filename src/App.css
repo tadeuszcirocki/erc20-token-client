@@ -35,6 +35,18 @@
   width: 150px;
 }
 
+.walletButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 150px;
+  background-color: #f57f17;
+  border: 1px solid black;
+}
+
 .switchButton {
   cursor: pointer;
   margin-top: 0px;
@@ -76,3 +88,4 @@
   -o-transform: scale(0.8, 0.8); /* Opera */
   -moz-transform: scale(0.8, 0.8); /* Firefox */
 }
+
