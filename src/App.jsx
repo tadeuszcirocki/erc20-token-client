@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { SocialIcon } from 'react-social-icons';
 import { ethers } from "ethers";
 import './App.css';
 
@@ -256,19 +257,22 @@ const App = () => {
 
     return (
         <div className="mainContainer">
-
-
             <div className="dataContainer">
-                <div className="switch">
-                    <button className="switchButton" onClick={switchToToken}>
-                        TOKEN
-                    </button>
-                    <button className="switchButton" onClick={switchToVesting}>
-                        VESTING
-                    </button>
-                </div>
                 {!isVesting && (
                     <div>
+                        <div className="switch">
+                            <button className="switchButton" onClick={switchToToken}>
+                                TOKEN
+                            </button>
+                            <button className="switchButton" onClick={switchToVesting}>
+                                VESTING
+                            </button>
+                            <div className="links">
+                                <SocialIcon url="https://github.com/tadeuszcirocki/say-hello-dapp" />
+                                <SocialIcon url="https://rinkeby.etherscan.io/address/0xfc17925a2744b48240348da71c1ec67dae334d14" />
+                                <SocialIcon url="https://www.linkedin.com/in/tadeusz-cirocki-128514178/" />
+                            </div>
+                        </div>
                         <div className="bio">
                             TOKEN
                         </div>
@@ -387,15 +391,28 @@ const App = () => {
 
 
 
-                    {isVesting && (
+                {isVesting && (
                     <div>
+                        <div className="switch">
+                            <button className="switchButton" onClick={switchToToken}>
+                                TOKEN
+                            </button>
+                            <button className="switchButton" onClick={switchToVesting}>
+                                VESTING
+                            </button>
+                            <div className="links">
+                                <SocialIcon url="https://github.com/tadeuszcirocki/say-hello-dapp" />
+                                <SocialIcon url="https://rinkeby.etherscan.io/address/0xfc17925a2744b48240348da71c1ec67dae334d14" />
+                                <SocialIcon url="https://www.linkedin.com/in/tadeusz-cirocki-128514178/" />
+                            </div>
+                        </div>
                         <div className="bio">
                             VESTING
                         </div>
                         <div className="header">
                             👋 Hey there!
                         </div>
-                        
+
                         <div className="bio">
                             "5" in input box == 5 widewei == 0.000 000 000 000 000 005 WIDE
                         </div>
