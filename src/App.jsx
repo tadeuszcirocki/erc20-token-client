@@ -268,9 +268,9 @@ const App = () => {
                                 VESTING
                             </button>
                             <div className="links">
-                                <SocialIcon url="https://github.com/tadeuszcirocki/say-hello-dapp" />
-                                <SocialIcon url="https://rinkeby.etherscan.io/address/0xfc17925a2744b48240348da71c1ec67dae334d14" />
-                                <SocialIcon url="https://www.linkedin.com/in/tadeusz-cirocki-128514178/" />
+                                <SocialIcon url="https://github.com/tadeuszcirocki/erc20-token" />
+                                <SocialIcon url="https://rinkeby.etherscan.io/address/0x70a764d787f6928aaF1cD9658E14f47CaEEC6AAE" />
+                                <SocialIcon url="https://www.linkedin.com/in/tadeusz-cirocki/" />
                             </div>
                         </div>
                         <div className="bio">
@@ -401,9 +401,9 @@ const App = () => {
                                 VESTING
                             </button>
                             <div className="links">
-                                <SocialIcon url="https://github.com/tadeuszcirocki/say-hello-dapp" />
-                                <SocialIcon url="https://rinkeby.etherscan.io/address/0xfc17925a2744b48240348da71c1ec67dae334d14" />
-                                <SocialIcon url="https://www.linkedin.com/in/tadeusz-cirocki-128514178/" />
+                                <SocialIcon url="https://github.com/tadeuszcirocki/erc20-token" />
+                                <SocialIcon url="https://rinkeby.etherscan.io/address/0x9188715C18f396453bEF74f844eAEad60E7B6E02" />
+                                <SocialIcon url="https://www.linkedin.com/in/tadeusz-cirocki/" />
                             </div>
                         </div>
                         <div className="bio">
